@@ -1,14 +1,5 @@
-# React Material UI template - Material Sense
+# React Material APPlication Demo
 A full simple application for react material ui
-
-## Features
-- Responsive
-- Include a Graph using [recharts](https://github.com/recharts/recharts)
-- With [Router](https://github.com/ReactTraining/react-router) included
-- A docker container for production build
-- Created with [Create react app](https://github.com/facebook/create-react-app)
-
-![Dashboard](screenshot-dashboard.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -54,24 +45,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Docker
-
-This project works in a docker container as well
-
-First run:
-`docker build . -t material-sense`
-
-Then:
-`docker run -p 2222:2222 material-sense`
-
-_the 2222 port intend to make work on Azure websites as container for default, cause is the port they use to expose the server_
-
-### Publish at Github pages
-`yarn deploy`
-
-## Screenshots
-![Dashboard](screenshot-dashboard.png)
-![Signup](screenshot-signup.png)
-![Wizard](screenshot-wizard.png)
-![Cards](screenshot-cards.png)
