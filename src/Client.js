@@ -1,7 +1,7 @@
 import config from './config';
 /* eslint-disable no-undef */
 function markets(cb) {
-    return fetch(`${config.marketsURL}/api/markets`, {
+    return fetch(`${config.marketsURL}/markets`, {
         accept: "application/json"
     })
         .then(checkStatus)
@@ -10,7 +10,7 @@ function markets(cb) {
 }
 
 function products(cb) {
-    return fetch(`${config.productsURL}/api/products`, {
+    return fetch(`${config.productsURL}/products`, {
         accept: "application/json"
     })
         .then(checkStatus)
@@ -19,7 +19,7 @@ function products(cb) {
 }
 
 function user(cb) {
-    return fetch(`${config.userURL}/api/user`, {
+    return fetch(`${config.userURL}/user`, {
         accept: "application/json"
     })
         .then(checkStatus)
