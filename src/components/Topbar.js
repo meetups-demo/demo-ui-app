@@ -127,7 +127,7 @@ class Topbar extends Component {
                     <Typography variant="h6" color="inherit" noWrap>
                       <Link to='/' className={classes.link}>
                         <img width={20} src={logo} alt="" />
-                        <span className={classes.tagline}>React Application</span>
+                        <span className={classes.tagline}>E Store</span>
                       </Link>
                     </Typography>
                   </div>
@@ -135,7 +135,7 @@ class Topbar extends Component {
                     <React.Fragment>
                       <div className={classes.productLogo}>
                         <Typography>
-                          A Sample React Application
+                          Shop at your Home
                         </Typography>
                       </div>
                       <div className={classes.iconContainer}>
